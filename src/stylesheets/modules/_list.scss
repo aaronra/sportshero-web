@@ -1,0 +1,8 @@
+.list {
+  box-shadow: none;
+  border-top: 2px solid $border-color;
+  border-bottom: 2px solid $border-color;
+  .list-item:not(:last-child) {
+    border-bottom: 2px solid $border-color;
+  }
+}

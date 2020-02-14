@@ -1,0 +1,21 @@
+#MultiTableList {
+  table {
+    tr.detail {
+      box-shadow: none;
+      background: #ffffff;
+      td, .detail-container {
+        padding: 0;
+      }
+    }
+    [data-label="Action"] {
+      .fa-chevron-down {
+        transition-duration: 0.2s;
+        transition-property: transform;
+        &.active {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+  }
+}

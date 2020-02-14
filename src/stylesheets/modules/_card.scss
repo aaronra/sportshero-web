@@ -1,0 +1,8 @@
+.card {
+  border-radius: $border-radius;
+  border: none;
+  box-shadow: $card-box-shadow;
+  footer.card-footer {
+    border-top: 2px solid #FBFBFB;
+  }
+}

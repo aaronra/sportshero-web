@@ -1,0 +1,9 @@
+.flatpickr-calendar {
+  .flatpickr-months {
+    background-color: $primary;
+  }
+  .flatpickr-day.selected {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}

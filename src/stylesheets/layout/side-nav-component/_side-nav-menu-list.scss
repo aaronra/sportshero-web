@@ -1,0 +1,34 @@
+#side-nav-menu-list {
+  .menu-list a {
+    border-left: 3.5px solid #000000;
+    border-radius: unset;
+    &:hover,
+    &.router-link-active {
+      background-color: #1C1C1C;
+      text-decoration: none;
+      border-left: 3.5px solid $primary;
+    }
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+  }
+  .icon {
+    &.dashboard {
+      background: url($base-url + "icons/dashboard.svg") no-repeat center;
+      background-size: contain;
+    }
+    &.horse-head {
+      background: url($base-url + "icons/horse-head.svg") no-repeat center;
+      background-size: contain;
+    }
+    &.helmet {
+      background: url($base-url + "icons/helmet.svg") no-repeat center;
+      background-size: contain;
+    }
+    &.avatar {
+      background: url($base-url + "icons/Avatar.svg") no-repeat center;
+      background-size: contain;
+    }
+  }
+}

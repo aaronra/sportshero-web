@@ -1,0 +1,16 @@
+.custom-icon {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  &.horse-racing {
+    mask-size: contain;
+    mask-image: url($base-url + "icons/horse-racing.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    &:hover {
+      margin-left: 100% !important;
+      transition: margin-left 1000ms ease-in-out;
+    }
+  }
+}
+

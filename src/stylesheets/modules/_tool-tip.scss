@@ -1,0 +1,53 @@
+.b-tooltip {
+  &:after {
+    padding: 0.5rem 1rem;
+  }
+  &.is-left.is-primary:before {
+    border-left-color: $twitter;
+  }
+  &.is-top.is-primary:before {
+    border-top: 5px solid $twitter;
+  }
+  &.is-primary:after {
+    background: $twitter;
+  }
+}
+
+.tooltip {
+  // ...
+
+  &.popover {
+    z-index: 99;
+    .popover-inner {
+      width: 25em;
+      background: white;
+      color: black;
+      padding: 24px;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .popover-arrow {
+      border-color: white;
+    }
+  }
+}
+
+.tooltip[x-placement^=right] .tooltip-arrow {
+  border-width: 10px 10px 10px 0;
+  border-left-color: transparent !important;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+  left: -10px;
+  top: calc(50% - 10px);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tooltip-arrow {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border: solid #000;
+}

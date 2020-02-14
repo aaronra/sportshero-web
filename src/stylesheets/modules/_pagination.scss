@@ -1,0 +1,10 @@
+.pagination {
+  .pagination-link,
+  .pagination-previous,
+  .pagination-next {
+    color: $grey-light;
+    &.is-current {
+      color: white;
+    }
+  }
+}

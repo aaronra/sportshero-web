@@ -1,0 +1,19 @@
+.b-checkbox.checkbox {
+  &:hover {
+    input[type=checkbox]:not(:disabled) + .check {
+      border-color: $primary;
+    }
+  }
+  input[type=checkbox] {
+    & + .check {
+      width: 1em;
+      height: 1em;
+      border-radius: 15px;
+    }
+    &:checked + .check {
+      background-color: $primary;
+      border-color: $primary;
+    }
+  }
+}
+

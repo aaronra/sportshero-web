@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Basketball",
+    "type": "Winning Margin",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Ongoing"
+  },
+  {
+    "id": 2,
+    "name": "Basketball",
+    "type": "Winning Margin",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Ongoing"
+  },
+  {
+    "id": 3,
+    "name": "Basketball",
+    "type": "Winning Margin",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Ongoing"
+  },
+  {
+    "id": 4,
+    "name": "Basketball",
+    "type": "Winning Margin",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Ongoing"
+  },
+  {
+    "id": 5,
+    "name": "Basketball",
+    "type": "Winning Margin",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Ongoing"
+  }
+]

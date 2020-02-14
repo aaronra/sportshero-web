@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Horse race",
+    "type": "Superfecta",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "name": "Horse race",
+    "type": "Superfecta",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "name": "Horse race",
+    "type": "Superfecta",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "name": "Horse race",
+    "type": "Superfecta",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Pending"
+  },
+  {
+    "id": 5,
+    "name": "Horse race",
+    "type": "Superfecta",
+    "description": "Kerin megumi HCP",
+    "location": "belmont",
+    "startTime": "09/19/19 - 08:00AM",
+    "endTime": "10/20/19 - 10:00AM",
+    "status": "Pending"
+  }
+]

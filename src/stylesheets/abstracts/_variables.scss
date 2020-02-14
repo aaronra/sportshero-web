@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Set your colors
+$primary: #2CF8BA;
+$primary-invert: findColorInvert($primary);
+$twitter: #448DDE;
+$twitter-invert: findColorInvert($twitter);
+$side-nav: #000000;
+$main-background: #F6F8FA;
+
+//borders
+$border-color: #F7F7F7;
+$border-radius: 10px;
+$card-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+// Links
+$link: #56CEB0;
+$link-invert: findColorInvert($link);
+$link-focus-border: $primary;
+
+// Setup $colors to use as bulma classes (e.g. ' is-twitter ')
+$colors: (
+        "white": ($white, $black),
+        "black": ($black, $white),
+        "light": ($light, $light-invert),
+        "dark": ($dark, $dark-invert),
+        "grey": ($grey, $dark-invert),
+        "primary": ($primary, $primary-invert),
+        "info": ($info, $info-invert),
+        "success": ($success, $success-invert),
+        "warning": ($warning, $warning-invert),
+        "danger": ($danger, $danger-invert),
+        "twitter": ($twitter, $twitter-invert),
+        "link": ($link, $link-invert),
+);
+/// Regular font family
+/// @type List
+$text-font-stack: ' Open Sans ', ' Helvetica Neue Light ', ' Helvetica Neue ', ' Helvetica ', ' Arial ', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: ' Courier New ', ' DejaVu Sans Mono ', ' Bitstream Vera Sans Mono ', ' Monaco ', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #BCBCBC !default;
+
+$grey: #7b7b7b;
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// Container' s maximum width /// @type Length
+$max-width: 1180px !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '~@/assets/' !default;
+
+// Import Bulma and Buefy styles
+@import "~bulma";

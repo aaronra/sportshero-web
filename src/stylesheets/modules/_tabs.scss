@@ -1,0 +1,26 @@
+.b-tabs {
+  nav.tabs {
+    margin-bottom: 0;
+    ul {
+      @media screen and(min-width: 769px) {
+        & {
+
+        }
+      }
+      li {
+        &.is-active a {
+          border-bottom: 4px solid $primary;
+          color: $black;
+        }
+        a {
+          color: $grey;
+          border-bottom: none;
+          padding: 0.5em 2.5em;
+        }
+      }
+    }
+  }
+  .tab-content {
+    padding: 0;
+  }
+}

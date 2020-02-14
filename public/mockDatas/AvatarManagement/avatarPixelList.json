@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Avatar Name",
+    "gainAvatar": "10",
+    "file": "fileName.jpg"
+  },
+  {
+    "name": "Avatar Name 2",
+    "gainAvatar": "12",
+    "file": "fileName2.jpg"
+  }
+]

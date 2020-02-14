@@ -1,0 +1,32 @@
+#RacingMultiBetsPickTheWinnerList {
+  position: relative;
+  overflow-y: hidden;
+  height: 30rem;
+  div.leg-wrapper {
+    position: absolute;
+    white-space: nowrap;
+    section.leg-column {
+      border: 1px solid #F6F6F6;
+      width: 15.7em;
+      height: 29rem;
+      display: inline-block;
+      &:nth-child(odd) {
+        background-color: #FBFBFB;
+      }
+      &:nth-child(even) {
+        background-color: #ffffff;
+      }
+      .leg-title {
+        padding: .75em !important;
+      }
+      .leg-item {
+        border: 1px solid #F6F6F6;
+        padding: .5em;
+      }
+      .leg-item-wrapper {
+        height: calc(29rem - 2.6rem);
+        overflow: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "multiName": "Horse Race",
+  "startTime": "09/19/19 - 08:00AM",
+  "releaseTime": "09/19/19 - 08:00AM",
+  "closeBetting": "09/19/19 - 08:00AM",
+  "multiType": "Prediction",
+  "venue": "USA",
+  "games": [
+    {
+      "gameId": "1",
+      "team1Id": "Toronto Raptors",
+      "team1Prediction": "Over",
+      "team2Id": "Toronto Raptors",
+      "team2Prediction": "Under"
+    },
+    {
+      "gameId": "2",
+      "team1Id": "Toronto Raptors",
+      "team1Prediction": "Over",
+      "team2Id": "Toronto Raptors",
+      "team2Prediction": "Under"
+    }
+  ]
+}

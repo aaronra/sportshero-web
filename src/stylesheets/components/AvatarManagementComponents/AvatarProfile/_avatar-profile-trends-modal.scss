@@ -1,0 +1,20 @@
+#AvatarProfileTrendsModal {
+  width: 1200px;
+
+  i.fa-times-circle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  @media screen and (max-width: 1024px) {
+    & {
+      width: 740px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    & {
+      width: 320px;
+    }
+  }
+}
+

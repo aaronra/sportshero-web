@@ -1,0 +1,8 @@
+#AvatarList {
+  img.avatar {
+    filter: opacity(40%);
+    &:hover {
+      filter: opacity(100%);
+    }
+  }
+}

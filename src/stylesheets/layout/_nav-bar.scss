@@ -1,0 +1,33 @@
+.navbar {
+  box-shadow: $card-box-shadow;
+  input[type=search] {
+    border: none;
+    box-shadow: none;
+  }
+  #nav-bar-end {
+    .navbar-item:not(:last-child) {
+      color: #BCBCBC;
+    }
+  }
+}
+
+.navbar-brand {
+  align-items: center;
+  background-color: $side-nav;
+  min-height: 4rem;
+  .navbar-burger,
+  .navbar-burger:hover {
+    display: block !important;
+    color: #ffffff;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    min-height: 4rem;
+  }
+  .navbar-brand {
+    width: 16.75rem;
+  }
+}

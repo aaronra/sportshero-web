@@ -1,0 +1,21 @@
+#AddPickTheWinnerModal,
+#AddSuperpectaModal {
+  .race-list {
+    margin: 0 -19px;
+    ul li {
+      padding: 13.25px;
+      display: flex;
+    }
+    ul.race-count li {
+      border: 2px solid #F3F3F3;
+      justify-content: center;
+      margin-bottom: -2px;
+    }
+    ul.racer-list li {
+      padding: 4px;
+      margin: 0 20px;
+      border-top: 1px solid #F3F3F3;
+      border-bottom: 1px solid #F3F3F3;
+    }
+  }
+}

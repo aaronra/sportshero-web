@@ -1,0 +1,14 @@
+hr.vertical-divider {
+  width: 2px;
+  height: 30px;
+  margin: 1rem 0;
+}
+
+hr.horizontal-divider {
+  border: 1px solid $border-color;
+  margin: 1rem 0;
+}
+
+.has-border-right {
+  border-right: 1px solid #dbdbdb;
+}

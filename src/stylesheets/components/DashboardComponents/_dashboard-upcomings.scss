@@ -1,0 +1,13 @@
+#dashboard-upcomings {
+  .card-content {
+    max-height: 15.5rem;
+    overflow: auto;
+  }
+  table {
+    color: #BCBCBC;
+
+    thead {
+      display: none;
+    }
+  }
+}

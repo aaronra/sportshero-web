@@ -1,0 +1,22 @@
+#EditGameModal {
+  .modal-card-head {
+    i.fa-times-circle {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  }
+  .player-list {
+    overflow-y: auto;
+    height: 15em;
+  }
+  .modal-card-foot {
+    border-top: 1px solid #dbdbdb;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #EditGameModal {
+    width: 25em;
+  }
+}

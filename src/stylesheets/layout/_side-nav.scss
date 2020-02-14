@@ -1,0 +1,25 @@
+aside#side-nav {
+  height: inherit;
+  background-color: $side-nav;
+  color: #ffffff;
+  width: 16.75rem;
+  transition: all 0.3s ease-in-out;
+  margin-left: -16.75rem;
+  &.is-active {
+    margin-left: 0%;
+  }
+  .menu-list a {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  aside#side-nav {
+    z-index: 99;
+    position: absolute;
+    margin-left: -100%;
+  }
+}
+
+@import './side-nav-component/side-nav-user-profile',
+'./side-nav-component/side-nav-menu-list';

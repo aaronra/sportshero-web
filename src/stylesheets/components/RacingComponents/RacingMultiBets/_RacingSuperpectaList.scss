@@ -1,0 +1,12 @@
+#RacingSuperpectaList {
+  .leg-item {
+    width: 13.8125rem;
+    border: 1px solid #F6F6F6;
+    padding: .5em;
+  }
+  @media screen and(max-width: 320px) {
+    .leg-item {
+      width: 16rem;
+    }
+  }
+}

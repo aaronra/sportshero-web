@@ -1,0 +1,19 @@
+{
+  "multiName": "Horse Race",
+  "startTime": "09/19/19 - 08:00AM",
+  "releaseTime": "09/19/19 - 08:00AM",
+  "closeBetting": "09/19/19 - 08:00AM",
+  "multiType": "Pick a Winner",
+  "venue": "Belmont",
+  "legs": [
+    {
+      "legId": "1"
+    },
+    {
+      "legId": "2"
+    },
+    {
+      "legId": "3"
+    }
+  ]
+}

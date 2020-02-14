@@ -1,0 +1,28 @@
+#GuildProfileInfo {
+  @media screen and (min-width: 769px) {
+    .column {
+      display: flex;
+      margin-left: 2em;
+      .field.is-horizontal {
+        width: 20em;
+        margin-bottom: 0;
+        &.description {
+          width: 100%;
+          .field-label.description-label {
+            flex-grow: 0;
+          }
+          .label.description-label {
+            width: 6em;
+          }
+        }
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .field-label {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.field {
+  &.is-horizontal {
+    .field-body {
+      flex-grow: 3;
+    }
+  }
+  .field-label {
+    .label {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+  .input, .textarea, .select select {
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .textarea.no-resize {
+    resize: none;
+  }
+  .select:not(.is-multiple):not(.is-loading)::after {
+    border-color: $brand-color;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .field {
+    &.is-horizontal {
+      align-items: center;
+      .field-label.is-normal {
+        padding-top: 0;
+        label.label {
+          /*font-size: 0.75rem;*/
+        }
+      }
+      .field-body {
+
+      }
+    }
+  }
+}
+
+#PublicLayout {
+  .input {
+    background-color: #F5F5F5;
+    border: none;
+    padding: 1.55rem 0.5rem;
+    font-size: 1rem;
+    color: black;
+  }
+}

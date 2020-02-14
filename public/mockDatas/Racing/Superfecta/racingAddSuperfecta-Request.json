@@ -1,0 +1,13 @@
+{
+  "multiName": "Horse Race",
+  "startTime": "09/19/19 - 08:00AM",
+  "releaseTime": "09/19/19 - 08:00AM",
+  "closeBetting": "09/19/19 - 08:00AM",
+  "multiType": "Superfecta",
+  "venue": "Belmont",
+  "legs": [
+    {
+      "legId": "1"
+    }
+  ]
+}

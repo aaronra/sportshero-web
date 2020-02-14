@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .is-mobile {
+    &.order-2 {
+      order: 2;
+    }
+  }
+}
+

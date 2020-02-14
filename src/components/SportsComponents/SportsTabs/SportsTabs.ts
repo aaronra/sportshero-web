@@ -1,0 +1,225 @@
+import {Component, Vue} from 'vue-property-decorator';
+import MultiTableList from '@/components/sharedComponents/MultiTableList/MultiTableList.vue';
+
+@Component({
+    name: 'SportsTabs',
+    components: {
+        MultiTableList,
+    },
+})
+export default class SportsTabs extends Vue {
+    // Component Props
+    activeTab = 0;
+    // Data property
+    onGoingDataList = [
+        {
+            id: 1,
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        },
+        {
+            id: 2,
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        },
+
+        {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        },
+        {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Ongoing',
+        }];
+    pendingDataList = [
+        {
+            id: 1,
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        },
+        {
+            id: 2,
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        },
+
+        {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        },
+        {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }, {
+            name: 'Basketball',
+            type: 'Winning Margin',
+            description: 'Head to Head',
+            location: 'belmont',
+            startTime: '09/19/19 - 08:00AM',
+            endTime: '10/20/19 - 10:00AM',
+            status: 'Pending',
+        }];
+    // Lifecycle hook
+
+    // Component method
+}

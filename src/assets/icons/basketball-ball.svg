@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.021" height="16.005" viewBox="0 0 16.021 16.005">
+  <g id="basketball-ball" transform="translate(0 -0.27)">
+    <path id="Path_3514" data-name="Path 3514" d="M125.83,411.947a8.112,8.112,0,0,0,3.664,1.117V409.84A5.134,5.134,0,0,0,125.83,411.947Z" transform="translate(-121.907 -396.789)" fill="#bdbdbd"/>
+    <path id="Path_3515" data-name="Path 3515" d="M129.493,3.494V.27a8.111,8.111,0,0,0-3.664,1.117,5.134,5.134,0,0,0,3.664,2.107Z" transform="translate(-121.907 0)" fill="#bdbdbd"/>
+    <path id="Path_3516" data-name="Path 3516" d="M270.518,409.838v3.224a8.111,8.111,0,0,0,3.664-1.117A5.117,5.117,0,0,0,270.518,409.838Z" transform="translate(-262.083 -396.787)" fill="#bdbdbd"/>
+    <path id="Path_3517" data-name="Path 3517" d="M274.977,51.991a6.079,6.079,0,0,1-4.459,2.533v3.3h7.661A8.165,8.165,0,0,0,274.977,51.991Z" transform="translate(-262.179 -50.069)" fill="#bdbdbd"/>
+    <path id="Path_3518" data-name="Path 3518" d="M3.224,270.877a6.045,6.045,0,0,1,4.459-2.534v-3.676H0A8.161,8.161,0,0,0,3.224,270.877Z" transform="translate(0 -256.255)" fill="#bdbdbd"/>
+    <path id="Path_3519" data-name="Path 3519" d="M270.518,264.668v3.676a6.079,6.079,0,0,1,4.459,2.533,8.161,8.161,0,0,0,3.224-6.209Z" transform="translate(-262.179 -256.255)" fill="#bdbdbd"/>
+    <path id="Path_3520" data-name="Path 3520" d="M274.182,1.387A8.111,8.111,0,0,0,270.518.27V3.494A5.117,5.117,0,0,0,274.182,1.387Z" transform="translate(-262.083 0)" fill="#bdbdbd"/>
+    <path id="Path_3521" data-name="Path 3521" d="M3.875,51.986a8.165,8.165,0,0,0-3.2,5.835H8.334v-3.3a6.045,6.045,0,0,1-4.459-2.534Z" transform="translate(-0.652 -50.064)" fill="#bdbdbd"/>
+  </g>
+</svg>

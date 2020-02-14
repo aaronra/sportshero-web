@@ -1,0 +1,18 @@
+#WinningMarginModal {
+  @media screen and (min-width: 769px) {
+    &.modal-card {
+      &.wide-modal {
+        width: 860px;
+      }
+      .field.search {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .list-item {
+        .columns {
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#AvatarProfileInfo {
+  font-size: 12pt;
+  dl {
+    dt {
+      color: $grey;
+      @media screen and (min-width: 769px) {
+        & {
+          display: flex;
+          justify-content: flex-end;
+          text-align: right;
+        }
+      }
+    }
+    dd {
+      @media screen and (max-width: 768px) {
+        & {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}

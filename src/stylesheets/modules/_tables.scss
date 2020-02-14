@@ -1,0 +1,29 @@
+.b-table {
+  &.is-border-less {
+    .table {
+      border: none;
+      thead th {
+        border: 1px solid #EFEFEF;
+        font-weight: normal;
+        font-size: 13pt;
+      }
+      td {
+        padding: 0.75em;
+        color: #9F9F9F;
+        font-size: 12pt;
+        border: none;
+      }
+    }
+  }
+  &.is-medium {
+    td {
+      padding: 1em 0.75em !important;
+    }
+  }
+  &.is-table-header-hidden {
+    border-top: 1.5px solid #EFEFEF;
+    table thead {
+      display: none;
+    }
+  }
+}
